@@ -1,0 +1,87 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #1a1a1a !important;
+  padding: 10px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff3f6c !important;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff3f6c !important;
+}
+
+.navbar .form-control {
+  width: 200px;
+  transition: width 0.3s ease;
+}
+
+.navbar .form-control:focus {
+  width: 250px;
+  box-shadow: none;
+}
+
+.navbar .btn {
+  background-color: #ff3f6c;
+  border: none;
+  color: white;
+}
+
+.navbar .btn:hover {
+  background-color: #e03561;
+  color: white;
+}
+
+.dropdown-toggle {
+  color: white !important;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.dropdown-toggle:hover {
+  background-color: #ff3f6c;
+  border-color: #ff3f6c;
+  color: white !important;
+}
+
+.dropdown-menu {
+  background-color: #1a1a1a;
+}
+
+.dropdown-menu a {
+  color: #ffffff;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ff3f6c;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar .form-control {
+    width: 120px;
+  }
+
+  .navbar .form-control:focus {
+    width: 160px;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .dropdown-toggle {
+    margin-top: 10px;
+  }
+}
